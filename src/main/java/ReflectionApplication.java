@@ -24,7 +24,7 @@ public class ReflectionApplication {
     public static void main(String[] args) throws Exception {
 
         String message = "Olá Mundo";
-
+        SerializaClasseEmArquivo();
         SecureRandom secureRandom = new SecureRandom();
         secureRandom.nextBytes(key);
         secureRandom.nextBytes(iv);
