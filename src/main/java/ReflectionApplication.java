@@ -1,4 +1,4 @@
-import valemobi.http.EncriptaDecriptaAES;
+import br.com.valebroker.http.EncriptaDecriptaAES;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -9,9 +9,9 @@ import java.util.Base64;
 public class ReflectionApplication {
 
 
-    static String originalFile = "valemobi.http.EncriptaDecriptaAES.ser";
+    static String originalFile = "br.com.valebroker.http.EncriptaDecriptaAES.ser";
 
-    static String classeDeserializada = "valemobi.http.EncriptaDecriptaAES.des";
+    static String classeDeserializada = "br.com.valebroker.http.EncriptaDecriptaAES.des";
     static String encryptedFile = "java.bin";
     static String tempDecryptedFile = "temp.out";
 
@@ -24,7 +24,7 @@ public class ReflectionApplication {
     public static void main(String[] args) throws Exception {
 
         String message = "Olá Mundo";
-       // SerializaClasseEmArquivo();
+        SerializaClasseEmArquivo();
         SecureRandom secureRandom = new SecureRandom();
         secureRandom.nextBytes(key);
         secureRandom.nextBytes(iv);

@@ -1,4 +1,4 @@
-import valemobi.http.EncriptaDecriptaAES;
+import br.com.valebroker.http.EncriptaDecriptaAES;
 
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;

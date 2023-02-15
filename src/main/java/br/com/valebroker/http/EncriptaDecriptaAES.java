@@ -1,4 +1,4 @@
-package valemobi.http;
+package br.com.valebroker.http;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
